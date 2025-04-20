@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(14, 34, 54);
+  background-size: 800% 800%;
+  animation: gradientShift 30s ease infinite;
+  color: rgb(230,230,230);
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h1, #description{
+    margin: 1em auto;
+    text-align: center;
+}
+#survey-form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;                
+    max-width: 500px;
+    border: solid;
+    padding: 2% 2%;
+    font-size: 1.2rem;
+    background: linear-gradient(270deg,  rgb(14, 34, 54),  rgb(27, 62, 99), rgb(14, 34, 54));
+}
+input, textarea, select {
+  margin: 5px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  font-size: 1.1rem;
+}
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+input, textarea {
+    background-color: rgb(14, 34, 54);
+    border: 1px solid rgb(230,230,230);
+    color: #ffffff;
+  }
+select {
+  background-color: rgb(14, 34, 54);
+  color: #ffffff;
+}
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: rgb(27, 62, 99);
+    border-color: white;
+    min-width: 300px;
+  }
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+
+.backg {
+  position: fixed;
+  width: 5em;
+  height: 5em;
+  z-index: -1;
+}
+.lefty {
+  left: 7%;
+  background: linear-gradient(270deg,  rgba(157, 178, 201, 0.5),  rgba(14, 34, 54, 0.5));
+}
+.righty {
+  right: 7%;
+  background: linear-gradient(270deg,  rgba(14, 34, 54, 0.5), rgba(157, 178, 201, 0.5));
+}
+
+.no1 {  top: 5rem;   border-radius: 90% 0 90% 0;}
+.no2 {  top: 12rem;  border-radius: 0 90% 0 90%;}
+.no3 {  top: 19rem;   border-radius: 90% 0 90% 0;}
+.no4 {  top: 26rem;  border-radius: 0 90% 0 90%;}
+
+.no5 {  top: 5rem;  border-radius: 0 90% 0 90%;}
+.no6 {  top: 12rem;   border-radius: 90% 0 90% 0;}
+.no7 {  top: 19rem;  border-radius: 0 90% 0 90%;}
+.no8 {  top: 26rem;  border-radius: 90% 0 90% 0;}
